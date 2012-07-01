@@ -1,0 +1,9 @@
+; hookKB.def : Declares the module parameters for the DLL.
+
+LIBRARY      "hookKB"
+DESCRIPTION  'hookKB Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    KeyboardProc
+	installhook
